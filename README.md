@@ -1,2 +1,3 @@
 # cumsar
-cumsar ui
+
+Repository for Cumpston Sarjeant website 
