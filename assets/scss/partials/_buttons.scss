@@ -1,0 +1,78 @@
+/*select field*/
+.btn-default, .btn-default:hover, .btn-default:active{
+  color: #0f0f0f;
+  background-color: #fff;
+  border-color: #d0d4d9;
+  border-radius: 3px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+
+}
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default{
+  color: #0f0f0f;
+  background-color: #fff;
+  border-color: #d0d4d9;
+  box-shadow: 0 0 0;
+}
+
+.bootstrap-select{
+  .btn{
+    padding: 10px 25px 10px 10px;
+    font-size: 14px;
+    &:focus {
+      outline: none !important;
+    }
+  }
+}
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
+  width: 100%;
+}
+
+/*repeated classes*/
+.button {
+  display: inline-block;
+  text-decoration: none;
+  outline: 0;
+  border-radius: 5px;
+  background-color: rgba(235,240,242,.7);
+  border: 1px solid #3291a9;
+  font-size: 16px;
+  font-weight: $light;
+  text-align: center;
+  color: #6a90a5;
+  padding: 14px;
+  cursor: pointer;
+  text-transform: uppercase;
+  min-width: 195px;
+  font-size: 13px;
+  line-height: 1;
+
+  &:hover {
+    color: #6a90a5;
+  }
+  &:active,
+  &:focus {
+    outline: none;
+    color: #6a90a5;
+  }
+
+  &:active{
+    position: relative;
+    top: 1px;
+  }
+  &--white{
+    background-color: rgba(235,240,242,1);
+  }
+  &--trans{
+    background-color: transparent;
+    color: #003b60!important;
+    border-color: #003a5e;
+  }
+  &--lg-text{
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+}

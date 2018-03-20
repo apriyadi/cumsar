@@ -1,0 +1,183 @@
+/* about */
+.about-col{
+	padding-left: 30px;
+	h1{
+		font-size: 54px;
+		color: #003b60;
+	}
+	h3{
+		color: #6c94b4;
+		font-size: 20px;
+		line-height: 28px;
+		margin-bottom: 35px;
+	}
+}
+
+.about-section{
+	.news-list__item{
+		p{
+			margin-bottom: 10px;
+			color: #6a90a5;
+		}
+		.text-right{
+			a{
+				color: #6a90a5;
+				font-size: 17px;
+				font-family: $font-family-cambria;
+				font-style: italic;
+			}
+		}
+	}
+}
+
+/* people-section */
+.people-section{
+	margin-bottom: 50px;
+	.author-block{
+		width: 140px;
+		height: 140px;
+		margin: 0 0 20px;
+	}
+	.sidebar{
+		h1{
+			font-size: 54px;
+			color: #003b60;
+			font-weight: 400;
+			margin: 0 0 5px;
+		}
+		h4{
+			font-size: 20px;
+			color: #6c94b4;
+			font-weight: 400;
+			margin-bottom: 30px;
+		}
+		h5{
+			font-size: 32px;
+			color: #003b60;
+			font-weight: 400;
+			font-family: $font-family-century;
+			padding: 20px 0 20px;
+			margin: 0;
+		}
+		ul{
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		li{
+			font-size: 18px;
+			color: #003b5e;
+			margin-bottom: 10px;
+		}
+	}
+
+	.left-col{
+		padding-left: 30px;
+
+		h2{
+			color: #003b60;
+			font-size: 20px;
+			background: url("../../assets/images/link-icon.png") no-repeat 0 2px;
+			padding-left: 35px;
+			min-height: 30px;
+			background-size: 25px;
+			text-transform: capitalize;
+		}
+	}
+}
+
+.info-box{
+	margin-bottom: 20px;
+	color: #005999;
+	i,
+	span{
+		display: inline-block;
+		vertical-align: middle;
+	}
+	i{
+		margin-right: 10px;
+	}
+	a{
+		color: #005999;
+	}
+}
+
+.publications--box{
+	background-color: transparent!important;
+	box-shadow: none!important;
+	border-radius: 0!important;
+	padding: 0!important;
+	margin-bottom: 20px;
+}
+
+.people-banner{
+	background-image: url("../../assets/images/people-banner-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	.container{
+		position: relative;
+	}
+
+	.pull-right{
+		width: 60%;
+	}
+	&__info{
+		position: absolute;
+		left: 100px;
+		bottom: 20px;
+	}
+	h1{
+		color: #fff;
+		font-size: 64px;
+		margin: 0 0 10px;
+	}
+	h4{
+		font-size: 27px;
+		color: #7785a7;
+		font-family: $font-family-gotham;
+		font-weight: 300;
+	}
+}
+
+.team-section{
+	h2{
+		font-size: 54px;
+		color: #003b60;
+	}
+	&__row{
+		border-top: 1px solid #b7b7b7;
+		padding-top: 30px;
+		margin-bottom: 10px;
+	}
+	h3{
+		color: #96b0cc;
+		font-size: 48px;
+		font-style: italic;
+	}
+	h4{
+		margin: 0;
+		font-size: 30px;
+		color: #003b60;
+		text-transform: capitalize;
+	}
+	h5{
+		font-size: 20px;
+		color: #6c94b4;
+		font-family: $font-family-century;
+		font-weight: 300;
+		margin-bottom: 30px;
+	}
+	&__more-link{
+		background-color: #e5eaef;
+		display: inline-block;
+		padding: 5px 10px;
+		border-radius: 3px;
+		font-family: $font-family-century;
+		font-size: 14px;
+		font-style: italic;
+		text-transform: capitalize;
+	}
+	.equalHeight{
+		margin-bottom: 50px;
+	}
+}

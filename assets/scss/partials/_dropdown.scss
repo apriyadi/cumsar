@@ -1,0 +1,26 @@
+//Dropdown
+
+.dropdown-menu{
+  background-color: #fff;
+  color: #555555;
+  border-color: #d0d4d9;
+  border-radius: 3px;
+  li{
+    padding: 0
+  }
+  a{
+    color: #555555;
+    display: block;
+    padding: 5px;
+
+    &:hover{
+      color: #000;
+    }
+  }
+}
+
+.dropdown-menu.open.show{
+  .dropdown-menu {
+    display: block;
+  }
+}

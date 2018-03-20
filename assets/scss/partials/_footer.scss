@@ -1,0 +1,79 @@
+//Footer
+
+.big-footer {
+    padding:  80px 0 75px;
+    background: url('../images/pattern1.jpg') left top repeat;
+    &__widget{
+    	font-size: 14px;
+    	float: right;
+    	figure{
+    		margin-bottom: 20px;
+    	}
+    	ul, a{
+    		color: #ebf0f2;
+    	}
+    	ul{
+    		list-style: none;
+    		padding: 0;
+    	}
+    	li{
+    		position: relative;
+    		padding-left: 70px;
+    		margin-bottom: 4px;
+    		span{
+    			position: absolute;
+    			left: 0;
+    			top: 0;
+    		}
+    	}
+    	a{
+    		&:hover, &:focus{
+    			text-decoration: underline;
+    		}
+    	}
+    	h4{
+    		font-family: $font-family-gotham;
+    		font-weight: $light;
+    		font-size: 30px;
+    		color: #6b96a8;
+    		margin: 13px 0 20px;
+    	}
+    }
+    &--location{
+    	p{
+    		color: #ebf0f2;
+    	}
+    }
+    [class*='col-']:first-child{
+    	.big-footer__widget{
+    		max-width: 542px;
+    		float: left;
+    	}
+    }
+}
+
+.legal-footer{
+	font-size: 12px;
+	color: #7f7f7f;
+	padding: 22px 0 18px;
+	background-color: #363636;
+	p{
+		margin-bottom: 0;
+	}
+	&__widget{
+		a{
+			color: #7f7f7f;
+			margin-left: 30px;
+			transition: 0.1s all linear;
+			&:first-child{
+				margin-left: 0;
+			}
+			&:hover, &:focus{
+				color: #ebf0f2;
+			}
+		}
+	}
+	&--right{
+		text-align: right;
+	}
+}

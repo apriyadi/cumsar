@@ -1,13 +1,23 @@
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
 @import url("https://use.fontawesome.com/releases/v5.0.6/css/all.css");
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-
+@font-face {
+  font-family: 'Gotham';
+  src: url("../fonts/GothamLight.eot");
+  src: url("../fonts/GothamLight.eot") format("embedded-opentype"), url("../fonts/GothamLight.woff2") format("woff2"), url("../fonts/GothamLight.woff") format("woff"), url("../fonts/GothamLight.ttf") format("truetype"), url("../fonts/GothamLight.svg#GothamLight") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'Gotham';
+  src: url("../fonts/GothamMediumRegular.eot");
+  src: url("../fonts/GothamMediumRegular.eot") format("embedded-opentype"), url("../fonts/GothamMediumRegular.woff2") format("woff2"), url("../fonts/GothamMediumRegular.woff") format("woff"), url("../fonts/GothamMediumRegular.ttf") format("truetype"), url("../fonts/GothamMediumRegular.svg#GothamMediumRegular") format("svg");
+  font-weight: 500;
+  font-style: normal; }
 html {
   box-sizing: border-box; }
 
 body {
   font-size: 16px;
-  font-family: Raleway, sans-serif;
+  font-family: Gotham, sans-serif;
   color: #888888;
   line-height: 1.45;
   margin: 0;
@@ -442,7 +452,7 @@ strong {
 
 .big-footer {
   padding: 80px 0 75px;
-  background: url("../../assets/images/patterns/pattern1.jpg") left top repeat; }
+  background: url("../images/pattern1.jpg") left top repeat; }
   .big-footer__widget {
     font-size: 14px;
     float: right; }
@@ -464,7 +474,7 @@ strong {
     .big-footer__widget a:hover, .big-footer__widget a:focus {
       text-decoration: underline; }
     .big-footer__widget h4 {
-      font-family: Raleway, sans-serif;
+      font-family: Gotham, sans-serif;
       font-weight: 300;
       font-size: 30px;
       color: #6b96a8;
@@ -496,7 +506,7 @@ strong {
 input,
 select,
 textarea {
-  font: 15px Raleway, sans-serif;
+  font: 15px Gotham, sans-serif;
   font-weight: 300;
   outline: none;
   color: #1a1a1a;
@@ -652,7 +662,7 @@ textarea:focus::-webkit-input-placeholder {
   margin-bottom: 20px; }
 
 .people-banner {
-  background-image: url("../../assets/images/patterns/people-banner-bg.jpg");
+  background-image: url("../../assets/images/people-banner-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
   .people-banner .container {
@@ -670,7 +680,7 @@ textarea:focus::-webkit-input-placeholder {
   .people-banner h4 {
     font-size: 27px;
     color: #7785a7;
-    font-family: Raleway, sans-serif;
+    font-family: Gotham, sans-serif;
     font-weight: 300; }
 
 .team-section h2 {
@@ -709,7 +719,7 @@ textarea:focus::-webkit-input-placeholder {
 
 /* hero banner */
 .hero-banner {
-  background-image: url("../../assets/images/patterns/pattern-bg.jpg");
+  background-image: url("../../assets/images/pattern-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -776,7 +786,7 @@ textarea:focus::-webkit-input-placeholder {
   .services h2 {
     font-size: 24px;
     color: #164f92;
-    font-family: Raleway, sans-serif;
+    font-family: Gotham, sans-serif;
     font-weight: 300; }
   .services p {
     font-size: 14px;
@@ -786,7 +796,7 @@ textarea:focus::-webkit-input-placeholder {
 
 /* announce */
 .announce {
-  background-image: url("../../assets/images/patterns/pattern-bg.jpg");
+  background-image: url("../../assets/images/pattern-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -838,7 +848,7 @@ textarea:focus::-webkit-input-placeholder {
     .article-section__popular header {
       color: #003b5e;
       font-family: Cambria, Georgia, serif;
-      background: url("../../assets/images/patterns/pattern-white.jpg") top left repeat-y;
+      background: url("../../assets/images/patterns/pattern1.jpg") top left repeat-y;
       border-radius: 4px 4px 0 0; }
       .article-section__popular header h3 {
         margin-bottom: 0;
@@ -848,7 +858,7 @@ textarea:focus::-webkit-input-placeholder {
         padding-top: 2px; }
     .article-section__popular .link h4 {
       font-size: 16px;
-      font-family: Raleway, sans-serif;
+      font-family: Gotham, sans-serif;
       font-weight: 300;
       margin-bottom: 7px; }
       .article-section__popular .link h4:last-child {

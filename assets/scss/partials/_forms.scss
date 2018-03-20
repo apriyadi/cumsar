@@ -1,0 +1,81 @@
+// Forms
+
+input,
+select,
+textarea {
+  font: 15px $font-family-gotham;
+  font-weight: $light;
+  outline: none;
+  color: #1a1a1a;
+  display: block;
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: solid 2px #d0d4d9;
+  height: auto;
+  line-height: normal;
+
+  &:focus{
+    border-color: #222323;
+  }
+}
+input.error,
+textarea.error {
+  border-color: #FE2B4A
+}
+/*submit field*/
+
+input[type='submit'],
+.submit-btn {
+  display: block;
+  background-color: #2677C6;
+  font-size: 14px;
+  color: #fff;
+  border: 1px solid #1562AD;
+  text-transform: capitalize;
+  cursor: pointer;
+  padding: 12px 15px 12px;
+  font-weight: 700;
+  outline: none;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 0 1px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 1px;
+}
+input[type='submit']:hover {
+  background-color: #2677C6
+}
+input[type='submit']:active {
+  background-color: #2677C6;
+  position: relative;
+  top: 1px
+}
+textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #7a7d7f;
+}
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+  color: #1a1a1a;
+}
+
+.form-control{
+	border-color: #d7d7d7;
+	height: 38px;
+	border-radius: 1px;
+	box-shadow: none;
+	&:focus{
+		border-color: #86aac8;
+		box-shadow: none;
+	}
+}
+.btn-submit{
+	line-height: 1;
+	padding: 0;
+	border: none;
+	background-color: transparent;
+}

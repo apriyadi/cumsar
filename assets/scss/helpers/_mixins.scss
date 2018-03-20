@@ -1,0 +1,24 @@
+//General Transform
+@mixin transform($transforms){
+	transform: $transforms;
+}
+
+//TranslateY
+@mixin translateY($x){
+	@include transform(translateY($x));
+}
+
+//Scale
+@mixin scale($x){
+	@include transform(scale($x))
+}
+
+//Transition
+@mixin transition($x){
+	transition: $x;
+}
+
+//Box Shadow
+@mixin box-shadow($x){
+	box-shadow: $x;
+}
