@@ -723,7 +723,7 @@ textarea:focus::-webkit-input-placeholder {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding: 50px 0; }
+  }
   .hero-banner:after {
     position: absolute;
     top: 0;
