@@ -22,8 +22,9 @@
 			content: '';
 			background-image: url(../../assets/images/filter-icon.png);
 			background-repeat: no-repeat;
-			width: 103px;
-			height: 102px;
+			background-size: cover;
+			width: 100px;
+			height: 100px;
 			display: block;
 			position: absolute;
 			top: 0;
@@ -119,7 +120,7 @@
 		padding: 0 14px;
 	}
 	&__item{
-		background-color: #fff; 
+		background-color: #fff;
 		border-radius: 4px;
 		margin-bottom: 45px;
 		box-shadow: 0px 0px 10px 0px rgba(173, 173, 173, 0.5);
@@ -282,13 +283,13 @@
 		position: relative;
 		&:after{
 			content: '';
-			background-image: url("../../assets/images/news-icon.png");
+			background-image: url("../../assets/images/icons/docs.svg");
 			background-repeat: no-repeat;
 			width: 23px;
 			height: 22px;
 			display: block;
 			position: absolute;
-			top: 0;
+			top: -2px;
 			left: -40px;
 		}
 	}
