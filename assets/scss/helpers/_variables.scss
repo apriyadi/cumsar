@@ -7,19 +7,18 @@ $medium: 500;
 
 // font families
 $font-family-gotham: Gotham, sans-serif;
-$font-family-century: Century, sans-serif;
-$font-family-adobe-caslon-pro: Adobe Caslon Pro, sans-serif;
+$font-family-serif: Cambria, serif;
 $font-family-cambria: Cambria, Georgia, serif;
 
 // Base Font
 $base-font-family: $font-family-gotham;
 $base-font-weight: $light;
-$base-font-size: 16px;
-$base-font-color: #888888;
+$base-font-size: 14px;
+$base-font-color: #333;
 
 
 // Headings
-$header-font-family: $font-family-century;
+$header-font-family: $font-family-serif;
 $header-font-weight: $normal;
 
 

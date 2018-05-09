@@ -3,6 +3,7 @@
 .big-footer {
     padding:  80px 0 75px;
     background: url('../images/pattern1.jpg') left top repeat;
+    color: #ebf0f2;
     &__widget{
     	font-size: 14px;
     	float: right;
@@ -34,7 +35,7 @@
     	h4{
     		font-family: $font-family-gotham;
     		font-weight: $light;
-    		font-size: 30px;
+    		font-size: 26px;
     		color: #6b96a8;
     		margin: 13px 0 20px;
     	}

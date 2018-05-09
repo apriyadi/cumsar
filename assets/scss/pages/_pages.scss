@@ -2,7 +2,7 @@
 .about-col{
 	padding-left: 30px;
 	h1{
-		font-size: 54px;
+		font-size: 34px;
 		color: #003b60;
 	}
 	h3{
@@ -40,7 +40,7 @@
 	}
 	.sidebar{
 		h1{
-			font-size: 54px;
+			font-size: 34px;
 			color: #003b60;
 			font-weight: 400;
 			margin: 0 0 5px;
@@ -55,7 +55,7 @@
 			font-size: 32px;
 			color: #003b60;
 			font-weight: 400;
-			font-family: $font-family-century;
+			font-family: $font-family-serif;
 			padding: 20px 0 20px;
 			margin: 0;
 		}
@@ -141,7 +141,7 @@
 
 .team-section{
 	h2{
-		font-size: 54px;
+		font-size: 34px;
 		color: #003b60;
 	}
 	&__row{
@@ -151,19 +151,19 @@
 	}
 	h3{
 		color: #96b0cc;
-		font-size: 48px;
+		font-size: 40px;
 		font-style: italic;
 	}
 	h4{
 		margin: 0;
-		font-size: 30px;
+		font-size: 26px;
 		color: #003b60;
 		text-transform: capitalize;
 	}
 	h5{
 		font-size: 20px;
 		color: #6c94b4;
-		font-family: $font-family-century;
+		font-family: $font-family-serif;
 		font-weight: 300;
 		margin-bottom: 30px;
 	}
@@ -172,12 +172,12 @@
 		display: inline-block;
 		padding: 5px 10px;
 		border-radius: 3px;
-		font-family: $font-family-century;
+		font-family: $font-family-serif;
 		font-size: 14px;
 		font-style: italic;
 		text-transform: capitalize;
 	}
 	.equalHeight{
-		margin-bottom: 50px;
+		margin-bottom: 40px;
 	}
 }
