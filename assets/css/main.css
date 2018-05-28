@@ -1,1 +1,1964 @@
-@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");@import url("https://use.fontawesome.com/releases/v5.0.6/css/all.css");@import url("https://fonts.googleapis.com/css?family=Merriweather");@font-face{font-family:'Gotham';src:url("../fonts/GothamLight.eot");src:url("../fonts/GothamLight.eot") format("embedded-opentype"),url("../fonts/GothamLight.woff2") format("woff2"),url("../fonts/GothamLight.woff") format("woff"),url("../fonts/GothamLight.ttf") format("truetype"),url("../fonts/GothamLight.svg#GothamLight") format("svg");font-weight:300;font-style:normal}@font-face{font-family:'Gotham';src:url("../fonts/GothamMediumRegular.eot");src:url("../fonts/GothamMediumRegular.eot") format("embedded-opentype"),url("../fonts/GothamMediumRegular.woff2") format("woff2"),url("../fonts/GothamMediumRegular.woff") format("woff"),url("../fonts/GothamMediumRegular.ttf") format("truetype"),url("../fonts/GothamMediumRegular.svg#GothamMediumRegular") format("svg");font-weight:500;font-style:normal}html{box-sizing:border-box}body{font-size:14px;font-family:Gotham,sans-serif;color:#333;line-height:1.45;margin:0;padding:0;word-wrap:break-word;font-weight:300;background-color:#f7f7f7;min-width:1200px}a{color:#003a5f;text-decoration:none;text-decoration:none;transition:all 0.4s ease-in-out}a:hover{text-decoration:none;color:#2c6c93}a:focus{text-decoration:none;outline:none;color:inherit}.link-icon{width:45px;height:auto}ul{margin:0}img{max-width:100%;height:auto}p{margin:0 0 28px;line-height:24px}h1,h2,h3,h4{margin:0 0 25px;padding:0;font-weight:400;font-family:Cambria,serif}strong{font-weight:600}.container,.container-fluid{min-width:1200px;padding:0 10px;width:1200px !important}.row{margin:0 -10px}.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9{padding-right:10px;padding-right:10px}.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12,.col-13,.col-14,.col-15{position:relative;min-height:1px;padding-right:10px;padding-left:10px}.dropdown:hover .dropdown-menu{display:block}.checkbox{display:block;position:relative;padding-left:30px;margin-bottom:15px;cursor:pointer;font-size:14px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;color:#003b60;font-weight:300;min-height:20px}.checkbox input{position:absolute;opacity:0;cursor:pointer}.checkmark{position:absolute;top:0;left:0;height:20px;width:20px;background-color:#fff;border:1px solid #d7d7d7;border-radius:1px}.checkbox:hover input ~ .checkmark{background-color:#fff}.checkbox input:checked ~ .checkmark{background-color:#fff;border-color:#003b60}.checkmark:after{content:"";position:absolute;display:none}.checkbox input:checked ~ .checkmark:after{display:block}.checkbox .checkmark:after{left:7px;top:3px;width:5px;height:10px;border:solid #003b60;border-width:0 2px 2px 0;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12,.col-13,.col-14,.col-15{float:left}.col-1{width:6.66666667%}.col-2{width:13.33333333%}.col-3{width:20%}.col-4{width:26.66666667%}.col-5{width:33.33333333%}.col-6{width:40%}.col-7{width:46.66666667%}.col-8{width:53.33333333%}.col-9{width:60%}.col-10{width:66.66666667%}.col-11{width:73.3333333%}.col-12{width:80%}.col-13{width:86.66666667%}.col-14{width:93.3333333%}.col-15{width:100%}.breadcrumb-bottom{background-color:#e4e4e4;position:relative}.breadcrumb-bottom:before{content:'';background-color:#c4c4c4;position:absolute;top:0;left:0;width:50%;height:100%;z-index:1;display:block}.breadcrumb-bottom .container{position:relative;z-index:9;background-color:#e4e4e4}.breadcrumb-bottom .container:before{content:'';background-color:#c4c4c4;position:absolute;top:0;left:0;width:7%;height:100%;z-index:-1;display:block}.breadcrumb-bottom ul{list-style:none;margin:0;padding:0}.breadcrumb-bottom li{display:inline-block;color:#333;font-size:14px;padding:16px 20px;background-color:#d3d3d3;height:55px}.breadcrumb-bottom li:first-child{background-color:transparent}.breadcrumb-bottom li.active{background-color:transparent}.breadcrumb-bottom a{color:#333;display:block}.breadcrumb-bottom .home-icon{width:20px;height:auto}i .email-icon{width:28px;height:auto}i .phone-icon{width:28px;height:auto}.search.btn-submit{width:20px;height:auto}.btn-default,.btn-default:hover,.btn-default:active{color:#0f0f0f;background-color:#fff;border-color:#d0d4d9;border-radius:3px;-webkit-transition:all 0.5s ease-in-out;-moz-transition:all 0.5s ease-in-out;-ms-transition:all 0.5s ease-in-out;-o-transition:all 0.5s ease-in-out;transition:all 0.5s ease-in-out}.btn-default:hover,.btn-default:focus,.btn-default.focus,.btn-default:active,.btn-default.active,.open>.dropdown-toggle.btn-default{color:#0f0f0f;background-color:#fff;border-color:#d0d4d9;box-shadow:0 0 0}.bootstrap-select .btn{padding:10px 25px 10px 10px;font-size:14px}.bootstrap-select .btn:focus{outline:none !important}.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){width:100%}.button{display:inline-block;text-decoration:none;outline:0;border-radius:5px;background-color:rgba(235,240,242,0.7);border:1px solid #3291a9;font-size:16px;font-weight:300;text-align:center;color:#6a90a5;padding:14px;cursor:pointer;text-transform:uppercase;min-width:195px;font-size:13px;line-height:1}.button:hover{color:#6a90a5}.button:active,.button:focus{outline:none;color:#6a90a5}.button:active{position:relative;top:1px}.button--white{background-color:#ebf0f2}.button--trans{background-color:transparent;color:#003b60 !important;border-color:#003a5e}.button--lg-text{font-size:20px;text-transform:capitalize}.dropdown-menu{background-color:#fff;color:#555555;border-color:#d0d4d9;border-radius:3px}.dropdown-menu li{padding:0}.dropdown-menu a{color:#555555;display:block;padding:5px}.dropdown-menu a:hover{color:#000}.dropdown-menu.open.show .dropdown-menu{display:block}.main-header{background-color:#fff;min-width:1170px}.main-header+.navigation{border-top:solid 4px #2b5977}.main-header__logo{float:left;margin:0;padding:35px 0 0 30px}.main-header__logo img{width:396px;height:auto}.main-header__right-side{float:right}.main-header__right-side ul{list-style:none;margin:0;padding:0}.main-header__right-side li{display:inline-block;border-left:1px solid #e3e3e3;padding:45px 30px;min-height:150px;color:#003a5f;text-transform:lowercase;text-align:center;font-size:20px;vertical-align:middle}.main-header__right-side li:first-child{border:none}.main-header__right-side li i{display:block;margin-bottom:5px}.main-header__right-side li strong{font-weight:500;font-size:24px;text-align:right;padding-right:25px}.main-header__right-side li a{color:#003a5f}.main-header__country-dropdown{text-align:right;line-height:1}.main-header__country-dropdown span{position:relative;padding-right:30px;font-size:16px;text-transform:uppercase;cursor:pointer}.main-header__country-dropdown span:after{content:'';position:absolute;top:2px;right:0;width:0;height:0;border-left:8px solid transparent;border-right:8px solid transparent;border-top:12px solid #003b5f}.navigation{background-color:#ffffff;border:1px solid #dcdcdc}.navigation nav>ul>li:hover>a,.navigation nav>ul>li.active>a{border-color:#003b60}.navigation ul{list-style:none;padding:0}.navigation li{float:left;text-transform:uppercase;position:relative;margin:0;font-size:16px;margin-left:100px}.navigation li:first-child{margin-left:0}.navigation a{color:#003a5e;display:block;padding:35px 0;border-bottom:5px solid transparent}.navigation li ul{margin:0;position:absolute;left:0;top:100%;background-color:#fff;width:170px;z-index:-11;opacity:0;visibility:hidden;-webkit-transition:all 0.4s ease-in-out;-moz-transition:all 0.4s ease-in-out;-ms-transition:all 0.4s ease-in-out;-o-transition:all 0.4s ease-in-out;transition:all 0.4s ease-in-out;border:1px solid #E0E0E0;text-align:left}.navigation li ul li{font-size:12px !important;margin:0 !important;display:block;border:none;height:auto;float:none !important;padding:0 !important;display:block !important}.navigation li ul li a{color:#1A1A1A;padding:8px 15px;display:block}.navigation li ul li:hover a{background-color:#f7f7f7}.navigation ul li:hover ul{visibility:visible;opacity:1;z-index:999}.navigation .navbar-header{display:none !important}.navigation .collapse{display:block !important}.big-footer{padding:80px 0 75px;background:url("../images/pattern1.jpg") left top repeat;color:#ebf0f2}.big-footer__widget{font-size:14px;float:right}.big-footer__widget figure{margin-bottom:20px}.big-footer__widget ul,.big-footer__widget a{color:#ebf0f2}.big-footer__widget ul{list-style:none;padding:0}.big-footer__widget li{position:relative;padding-left:70px;margin-bottom:4px}.big-footer__widget li span{position:absolute;left:0;top:0}.big-footer__widget a:hover,.big-footer__widget a:focus{text-decoration:underline}.big-footer__widget h4{font-family:Gotham,sans-serif;font-weight:300;font-size:26px;color:#6b96a8;margin:13px 0 20px}.big-footer--location p{color:#ebf0f2}.big-footer [class*='col-']:first-child .big-footer__widget{max-width:542px;float:left}.legal-footer{font-size:12px;color:#7f7f7f;padding:22px 0 18px;background-color:#363636}.legal-footer p{margin-bottom:0}.legal-footer__widget a{color:#7f7f7f;margin-left:30px;transition:0.1s all linear}.legal-footer__widget a:first-child{margin-left:0}.legal-footer__widget a:hover,.legal-footer__widget a:focus{color:#ebf0f2}.legal-footer--right{text-align:right}input,select,textarea{font:15px Gotham,sans-serif;font-weight:300;outline:none;color:#1a1a1a;display:block;width:100%;padding:14px;border-radius:8px;background-color:#ffffff;border:solid 2px #d0d4d9;height:auto;line-height:normal}input:focus,select:focus,textarea:focus{border-color:#222323}input.error,textarea.error{border-color:#FE2B4A}input[type='submit'],.submit-btn{display:block;background-color:#2677C6;font-size:14px;color:#fff;border:1px solid #1562AD;text-transform:capitalize;cursor:pointer;padding:12px 15px 12px;font-weight:700;outline:none;box-shadow:0 1px 1px 0 rgba(0,0,0,0.1),0 0 1px 0 rgba(0,0,0,0.05);border-radius:1px}input[type='submit']:hover{background-color:#2677C6}input[type='submit']:active{background-color:#2677C6;position:relative;top:1px}textarea{height:150px;resize:vertical}input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#7a7d7f}input:focus::-webkit-input-placeholder,textarea:focus::-webkit-input-placeholder{color:#1a1a1a}.form-control{border-color:#d7d7d7;height:38px;border-radius:1px;box-shadow:none}.form-control:focus{border-color:#86aac8;box-shadow:none}.btn-submit{line-height:1;padding:0;border:none;background-color:transparent}.about-col{padding-left:30px}.about-col h1{font-size:34px;color:#003b60}.about-col h3{color:#6c94b4;font-size:20px;line-height:28px;margin-bottom:35px}.about-section .news-list__item p{margin-bottom:10px;color:#6a90a5}.about-section .news-list__item .text-right a{color:#6a90a5;font-size:17px;font-family:Cambria,Georgia,serif;font-style:italic}.people-section{margin-bottom:50px}.people-section .author-block{width:140px;height:140px;margin:0 0 20px}.people-section .sidebar h1{font-size:34px;color:#003b60;font-weight:400;margin:0 0 5px}.people-section .sidebar h4{font-size:20px;color:#6c94b4;font-weight:400;margin-bottom:30px}.people-section .sidebar h5{font-size:32px;color:#003b60;font-weight:400;font-family:Cambria,serif;padding:20px 0 20px;margin:0}.people-section .sidebar ul{list-style:none;margin:0;padding:0}.people-section .sidebar li{font-size:18px;color:#003b5e;margin-bottom:10px}.people-section .left-col{padding-left:30px}.people-section .left-col h2{color:#003b60;font-size:20px;background:url("../../assets/images/icons/paperclip.svg") no-repeat 0 -2px;padding-left:35px;min-height:30px;background-size:30px;text-transform:capitalize}.info-box{margin-bottom:20px;color:#005999}.info-box i,.info-box span{display:inline-block;vertical-align:middle}.info-box i{margin-right:10px}.info-box a{color:#005999}.publications--box{background-color:transparent !important;box-shadow:none !important;border-radius:0 !important;padding:0 !important;margin-bottom:20px}.people-banner{background-image:url("../../assets/images/people-banner-bg.jpg");background-repeat:no-repeat;background-size:cover}.people-banner .container{position:relative}.people-banner .pull-right{width:60%}.people-banner__info{position:absolute;left:100px;bottom:20px}.people-banner h1{color:#fff;font-size:64px;margin:0 0 10px}.people-banner h4{font-size:27px;color:#7785a7;font-family:Gotham,sans-serif;font-weight:300}.team-section h2{font-size:34px;color:#003b60}.team-section__row{border-top:1px solid #b7b7b7;padding-top:30px;margin-bottom:10px}.team-section h3{color:#96b0cc;font-size:40px;font-style:italic}.team-section h4{margin:0;font-size:26px;color:#003b60;text-transform:capitalize}.team-section h5{font-size:20px;color:#6c94b4;font-family:Cambria,serif;font-weight:300;margin-bottom:30px}.team-section__more-link{background-color:#e5eaef;display:inline-block;padding:5px 10px;border-radius:3px;font-family:Cambria,serif;font-size:14px;font-style:italic;text-transform:capitalize}.team-section .equalHeight{margin-bottom:40px}.hero-banner{background-image:url("../../assets/images/pattern-bg.jpg");background-repeat:no-repeat;background-size:cover;position:relative}.hero-banner:after{position:absolute;top:0;right:0;height:100%;background-image:url("../../assets/images/img-1.png");background-position:0;background-repeat:no-repeat;background-size:cover;content:'';width:700px}.hero-banner .container{position:relative;height:100%}.hero-banner__left{padding:80px 0}.hero-banner__left h2{font-size:40px;color:#fff;font-family:Cambria,serif}.hero-banner__left ul{list-style:none;margin:0;padding:30px 0 0;max-width:430px}.hero-banner__left li{padding-left:80px;margin-bottom:20px}.hero-banner__left a{position:relative;color:#fff;font-size:24px;border-bottom:1px solid #264f67;display:block;padding:0 60px 20px 0}.hero-banner__left a:after{background-image:url("../../assets/images/right-arrow.png");background-repeat:no-repeat;width:14px;height:26px;display:block;content:'';position:absolute;right:10px;top:0}.hero-banner__left img{position:absolute;left:-70px;top:-4px;width:44px;height:auto}.content{padding:60px 0 0}.services{padding-bottom:40px}.services figure{margin-bottom:20px}.services figure img{height:40px;width:auto}.services h2{font-size:24px;color:#164f92;font-family:Gotham,sans-serif;font-weight:300}.services p{font-size:14px;color:#333}.services .equalHeight{margin-bottom:40px}.announce{background-image:url("../../assets/images/pattern-bg.jpg");background-repeat:no-repeat;background-size:cover;position:relative;min-height:288px}.announce:after{position:absolute;top:0;left:0;height:328px;background-image:url("../../assets/images/img-2.png");background-position:0;background-repeat:no-repeat;background-size:cover;content:'';width:588px}.announce__col{float:right;width:50%;color:#fff;padding:40px 0}.announce__col h2{font-size:36px;font-family:Cambria,serif;font-weight:400;margin:0}.announce__col .date{font-size:14px;display:block;margin-bottom:20px}.announce__col p{font-size:16px}.announce__col .button{border-color:#3291a9}.article-section{padding:140px 0 25px;background-color:#f7f7f7}.article-section__popular{background-color:#fff;border-radius:4px;margin-right:8px;box-shadow:0px 0px 5px 0px rgba(148,148,148,0.3)}.article-section__popular header,.article-section__popular .link,.article-section__popular footer{padding:17px 22px}.article-section__popular header,.article-section__popular .link{border-bottom:solid 1px rgba(148,148,148,0.5)}.article-section__popular header{color:white;font-family:Cambria,Georgia,serif;background:#0f4668;border-radius:4px 4px 0 0}.article-section__popular header h3{margin-bottom:0;min-height:34px;padding-top:2px;background-size:30px 30px}.article-section__popular .link h4{font-size:16px;font-family:Gotham,sans-serif;font-weight:300;margin-bottom:7px}.article-section__popular .link h4:last-child{margin-bottom:0}.article-section__popular .link a{color:#1d6693;transition:0.1s all linear}.article-section__popular .link a:hover,.article-section__popular .link a:focus{color:#555}.article-section__popular .link p{font-size:11px;margin-bottom:0}.article-section__popular ul{list-style:none;margin:0;padding:0}.article-section__popular li{border-bottom:1px solid #d1d1d1;font-size:14px}.article-section__popular li a{display:block;padding:20px;color:#2c6c93;position:relative}.article-section__popular li a:before{content:'';display:block;background-color:#a6bbc8;height:0;width:5px;position:absolute;bottom:0;left:0;transition:all 0.4s ease-in-out}.article-section__popular li:hover a:before,.article-section__popular li.active a:before{height:100%}.article-section__popular footer{text-align:right;background-color:#ebf0f2;border-radius:0 0 4px 4px}.article-section__popular footer p{font-size:17px;font-family:Cambria,Georgia,serif;font-style:italic;margin-bottom:0}.article-section__popular footer a{color:#1d5e84;transition:0.1s all linear}.article-section__popular footer a:hover,.article-section__popular footer a:focus{color:#143a50}.article-section__list{padding-left:40px;padding-right:8px}.article-section__article{margin-bottom:65px}.article-section__article header{position:relative;padding-right:100px;margin-bottom:20px}.article-section__article header h2{font-size:39px;font-family:Cambria,Georgia,serif;margin-bottom:15px;font-weight:300}.article-section__article header a{color:#6a90a5;transition:0.1s all linear}.article-section__article header a:hover,.article-section__article header a:focus{color:#387799}.article-section__article header h3{padding-bottom:0;font-weight:300;font-family:Cambria,Georgia,serif;color:#003b5f}.article-section__article header .author-block{position:absolute;top:0;right:0;width:70px;height:70px}.article-section__article header .author-block__photo{margin-bottom:2px}.article-section__article header .author-block__name{font-size:12px;position:absolute;top:75px;left:0}.article-section__article header .pull-left img{display:block}.article-section__article header .pull-left .author-name{font-size:20px;color:#003b5f;display:block}.article-section__article figure{font-size:12px;display:inline-block;text-align:center}.article-section__article figure img{margin-bottom:4px}.article-section__article .pull-left{width:80%}.article-section__article .pull-right{width:20%;text-align:right}.article-section__article .content-wrap{font-size:16px;line-height:1.9}.article-section__article .content-wrap p{margin-bottom:22px}.article-section__article .content-wrap p:last-child{margin-bottom:0}.page-title{color:#003b60;padding:17px 0 58px}.page-title h2{font-size:40px;margin-bottom:0}.relative{position:relative}.filter-block--content-wrap{padding:16px 30px 30px 26px;background-color:#fff;border:solid 1px #f1f1f1;border-radius:4px;position:relative}.filter-block--content-wrap:after{content:'';background-repeat:no-repeat;background-size:cover;width:100px;height:100px;display:block;position:absolute;top:0;right:0}.filter-block .row{margin:0 -20px}.filter-block [class*='col-']{padding:0 20px}.filter-block h5{font-size:18px;color:#003b60;font-family:Cambria,serif;margin:0 0 13px}.filter-block__search .form-control{padding-right:45px}.filter-block__search button{position:absolute;top:8px;right:18px}.tag-list__item{font-size:15px;line-height:1;display:inline-block;color:#fff;padding:5px 11px 5px 13px;background-color:#b9bbbd;border-radius:4px;margin:0 5px 5px 0}.tag-list__item:hover,.tag-list__item:focus{color:#fff;opacity:.9}.tag-list__item--orange{background-color:#e3947a}.tag-list__item--lightgreen{background-color:#c9b75f}.tag-list__item--purple{background-color:#ac6390}.tag-list__item--lightblue{background-color:#6a90a5}.tag-list__item--darkgreen{background-color:#909c7a}.tag-list__item--darkblue{background-color:#0f4769}.tag-list__item--gray{background-color:#b9bbbd}.tag-list--small .tag-list__item{font-size:12px;padding:4px 10px}.news-list{padding:40px 0}.news-list .container{padding:0 14px}.news-list .row{margin:0 -14px}.news-list [class*='col-']{padding:0 14px}.news-list__item{background-color:#fff;border-radius:4px;margin-bottom:45px;box-shadow:0px 0px 10px 0px rgba(173,173,173,0.5)}.news-list__item figure{overflow:hidden}.news-list__item figure img{border-radius:4px 4px 0 0;transition:0.5s all linear}.news-list__item__text{padding:18px 26px;border-radius:0 0 4px 4px}.news-list__item__text h1{font-size:20px;line-height:1.4;font-family:Cambria,serif;margin-bottom:4px}.news-list__item__text h1 a{color:#1e4e6a;display:inline-block;transition:0.1s all linear}.news-list__item__text h1 a:hover,.news-list__item__text h1 a:focus{color:#86aac8}.news-list__item__text h6{font-size:11px;margin:0 0 14px}.news-list__item__text p{font-size:14px;margin-bottom:20px;line-height:22px}.news-list__item--date,.news-list__item--category{text-transform:uppercase}.news-list__item--date{color:#86aac8}.news-list__item--author,.news-list__item--author a{color:#155f7d}.news-list__item--author a:hover{text-decoration:underline}.news-list__item--category:before{content:'|';margin:0 2px 0 1px}.news-list__item:hover figure img{transition:2s all linear;transform:scale(1.1, 1.1)}.news-list .button{margin:20px auto 0;display:block;width:200px}.article-banner{margin-bottom:50px}.article-details-section{margin-bottom:50px}.author-block{width:145px;margin:0 auto}.author-block__name{font-size:20px;color:#003b5f;font-family:Cambria,serif;display:block;text-align:center}.author-block__photo{background-color:#c6d1d8;padding:3px;overflow:hidden;width:100%;height:100%;border-radius:50%;margin:0 auto 10px}.author-block__photo img{width:100%;height:100%;display:block;object-fit:cover}.article-post h1{font-family:Cambria,serif;color:#1e4e6a;font-size:38px;font-weight:400}.article-post .filter-block__type{margin-bottom:30px}.article-post p{padding-bottom:30px;line-height:30px}.article-post__more{font-size:20px;font-family:Cambria,serif;margin-bottom:20px}.article-post__more img,.article-post__more span{display:inline-block;margin-right:10px;vertical-align:middle}.recent-article{background-color:#fff;box-shadow:0px 0px 5px 0px rgba(148,148,148,0.3);border-radius:2px;padding:20px;margin-bottom:20px}.recent-article h3{font-size:28px;color:#6a90a5}.recent-article ul{list-style:none;margin:0 0 0 10px;padding:0}.recent-article li{margin-bottom:15px}.recent-article a{color:#3c627c;border-bottom:2px solid #afbbc4;margin-left:40px;position:relative}.recent-article a:after{content:'';background-image:url("../../assets/images/icons/docs.svg");background-repeat:no-repeat;width:23px;height:22px;display:block;position:absolute;top:-2px;left:-40px}
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+@import url("https://use.fontawesome.com/releases/v5.0.6/css/all.css");
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+@font-face {
+  font-family: 'Gotham';
+  src: url("../fonts/GothamLight.eot");
+  src: url("../fonts/GothamLight.eot") format("embedded-opentype"), url("../fonts/GothamLight.woff2") format("woff2"), url("../fonts/GothamLight.woff") format("woff"), url("../fonts/GothamLight.ttf") format("truetype"), url("../fonts/GothamLight.svg#GothamLight") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url("../fonts/GothamMediumRegular.eot");
+  src: url("../fonts/GothamMediumRegular.eot") format("embedded-opentype"), url("../fonts/GothamMediumRegular.woff2") format("woff2"), url("../fonts/GothamMediumRegular.woff") format("woff"), url("../fonts/GothamMediumRegular.ttf") format("truetype"), url("../fonts/GothamMediumRegular.svg#GothamMediumRegular") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* line 1, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 4, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+body {
+  font-size: 14px;
+  font-family: Gotham, sans-serif;
+  color: #333;
+  line-height: 1.45;
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+  font-weight: 300;
+  background-color: #f7f7f7;
+  min-width: 1024px;
+}
+
+/* line 17, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+a {
+  color: #003a5f;
+  text-decoration: none;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+
+/* line 23, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+a:hover {
+  text-decoration: none;
+  color: #2c6c93;
+}
+
+/* line 27, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+a:focus {
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+}
+
+/* line 34, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.link-icon {
+  width: 45px;
+  height: auto;
+}
+
+/* line 39, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+ul {
+  margin: 0;
+}
+
+/* line 42, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 47, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+p {
+  margin: 0 0 28px;
+  line-height: 24px;
+}
+
+/* line 52, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+h1,
+h2,
+h3,
+h4 {
+  margin: 0 0 25px;
+  padding: 0;
+  font-weight: 400;
+  font-family: Cambria, serif;
+}
+
+/* line 61, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+strong {
+  font-weight: 600;
+}
+
+/* line 64, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.container,
+.container-fluid {
+  min-width: 1024px;
+  padding: 0 20px;
+  width: 1024px !important;
+}
+
+/* line 70, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.row {
+  margin: 0 -10px;
+}
+
+/* line 73, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4,
+.col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10,
+.col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
+.col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12,
+.col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8,
+.col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3,
+.col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  padding-right: 10px;
+  padding-right: 10px;
+}
+
+/* line 83, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8,
+.col-9, .col-10, .col-11, .col-12, .col-13, .col-14, .col-15 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/* line 93, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* line 99, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.checkbox {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 13px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #003b60;
+  font-weight: 300;
+  min-height: 20px;
+}
+
+/* line 115, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* line 121, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border: 1px solid #d7d7d7;
+  border-radius: 1px;
+}
+
+/* line 132, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.checkbox:hover input ~ .checkmark {
+  background-color: #fff;
+}
+
+/* line 136, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.checkbox input:checked ~ .checkmark {
+  background-color: #fff;
+  border-color: #003b60;
+}
+
+/* line 141, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* line 147, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* line 151, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.checkbox .checkmark:after {
+  left: 7px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid #003b60;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* line 163, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8,
+.col-9, .col-10, .col-11, .col-12, .col-13, .col-14, .col-15 {
+  float: left;
+}
+
+/* line 168, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.col-1 {
+  width: 6.66666667%;
+}
+
+/* line 171, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.col-2 {
+  width: 13.33333333%;
+}
+
+/* line 174, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.col-3 {
+  width: 20%;
+}
+
+/* line 177, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.col-4 {
+  width: 26.66666667%;
+}
+
+/* line 180, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.col-5 {
+  width: 33.33333333%;
+}
+
+/* line 183, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.col-6 {
+  width: 40%;
+}
+
+/* line 186, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.col-7 {
+  width: 46.66666667%;
+}
+
+/* line 189, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.col-8 {
+  width: 53.33333333%;
+}
+
+/* line 192, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.col-9 {
+  width: 60%;
+}
+
+/* line 195, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.col-10 {
+  width: 66.66666667%;
+}
+
+/* line 198, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.col-11 {
+  width: 73.3333333%;
+}
+
+/* line 201, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.col-12 {
+  width: 80%;
+}
+
+/* line 204, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.col-13 {
+  width: 86.66666667%;
+}
+
+/* line 207, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.col-14 {
+  width: 93.3333333%;
+}
+
+/* line 210, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.col-15 {
+  width: 100%;
+}
+
+/* line 215, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.breadcrumb-bottom {
+  background-color: #e4e4e4;
+  position: relative;
+}
+
+/* line 218, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.breadcrumb-bottom:before {
+  content: '';
+  background-color: #c4c4c4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  z-index: 1;
+  display: block;
+}
+
+/* line 229, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.breadcrumb-bottom .container {
+  position: relative;
+  z-index: 9;
+  background-color: #e4e4e4;
+}
+
+/* line 234, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.breadcrumb-bottom .container:before {
+  content: '';
+  background-color: #c4c4c4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 7%;
+  height: 100%;
+  z-index: -1;
+  display: block;
+}
+
+/* line 246, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.breadcrumb-bottom ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 251, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.breadcrumb-bottom li {
+  display: inline-block;
+  color: #333;
+  font-size: 14px;
+  padding: 16px 20px;
+  background-color: #d3d3d3;
+  height: 55px;
+}
+
+/* line 258, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.breadcrumb-bottom li:first-child {
+  background-color: transparent;
+}
+
+/* line 261, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.breadcrumb-bottom li.active {
+  background-color: transparent;
+}
+
+/* line 265, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.breadcrumb-bottom a {
+  color: #333;
+  display: block;
+}
+
+/* line 269, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.breadcrumb-bottom .home-icon {
+  width: 20px;
+  height: auto;
+}
+
+/* line 276, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+i .email-icon {
+  width: 28px;
+  height: auto;
+}
+
+/* line 281, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+i .phone-icon {
+  width: 28px;
+  height: auto;
+}
+
+/* line 288, /home/aditia.priyadi/Projects/cumsar/assets/scss/base/_base.scss */
+.search.btn-submit {
+  width: 20px;
+  height: auto;
+}
+
+/*select field*/
+/* line 2, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_buttons.scss */
+.btn-default, .btn-default:hover, .btn-default:active {
+  color: #0f0f0f;
+  background-color: #fff;
+  border-color: #d0d4d9;
+  border-radius: 3px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+/* line 14, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_buttons.scss */
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+  color: #0f0f0f;
+  background-color: #fff;
+  border-color: #d0d4d9;
+  box-shadow: 0 0 0;
+}
+
+/* line 22, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_buttons.scss */
+.bootstrap-select .btn {
+  padding: 10px 25px 10px 10px;
+  font-size: 14px;
+}
+
+/* line 25, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_buttons.scss */
+.bootstrap-select .btn:focus {
+  outline: none !important;
+}
+
+/* line 30, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_buttons.scss */
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+  width: 100%;
+}
+
+/*repeated classes*/
+/* line 35, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_buttons.scss */
+.button {
+  display: inline-block;
+  text-decoration: none;
+  outline: 0;
+  border-radius: 5px;
+  background-color: rgba(235, 240, 242, 0.7);
+  border: 1px solid #3291a9;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  color: #003b5f;
+  padding: 14px;
+  cursor: pointer;
+  text-transform: uppercase;
+  min-width: 195px;
+  line-height: 1;
+}
+
+/* line 52, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_buttons.scss */
+.button:hover {
+  color: #6a90a5;
+}
+
+/* line 55, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_buttons.scss */
+.button:active, .button:focus {
+  outline: none;
+  color: #6a90a5;
+}
+
+/* line 61, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_buttons.scss */
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+/* line 65, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_buttons.scss */
+.button--white {
+  background-color: #ebf0f2;
+}
+
+/* line 68, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_buttons.scss */
+.button--trans {
+  background-color: transparent;
+  color: #003b60 !important;
+  border-color: #003a5e;
+}
+
+/* line 73, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_buttons.scss */
+.button--lg-text {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+/* line 3, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_dropdown.scss */
+.dropdown-menu {
+  background-color: #fff;
+  color: #555555;
+  border-color: #d0d4d9;
+  border-radius: 3px;
+}
+
+/* line 8, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_dropdown.scss */
+.dropdown-menu li {
+  padding: 0;
+}
+
+/* line 11, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_dropdown.scss */
+.dropdown-menu a {
+  color: #555555;
+  display: block;
+  padding: 5px;
+}
+
+/* line 16, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_dropdown.scss */
+.dropdown-menu a:hover {
+  color: #000;
+}
+
+/* line 23, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_dropdown.scss */
+.dropdown-menu.open.show .dropdown-menu {
+  display: block;
+}
+
+/* main header */
+/* line 2, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_header.scss */
+.main-header {
+  background-color: #fff;
+  min-width: 1024px;
+}
+
+/* line 5, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_header.scss */
+.main-header + .navigation {
+  border-top: solid 4px #2b5977;
+}
+
+/* line 9, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_header.scss */
+.main-header__logo {
+  float: left;
+  margin: 0;
+  padding: 35px 0 0 30px;
+}
+
+/* line 14, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_header.scss */
+.main-header__logo img {
+  width: 396px;
+  height: auto;
+}
+
+/* line 19, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_header.scss */
+.main-header__right-side {
+  float: right;
+}
+
+/* line 21, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_header.scss */
+.main-header__right-side ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 26, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_header.scss */
+.main-header__right-side li {
+  display: inline-block;
+  border-left: 1px solid #e3e3e3;
+  padding: 45px 30px;
+  min-height: 150px;
+  color: #003a5f;
+  text-transform: lowercase;
+  text-align: center;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+/* line 36, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_header.scss */
+.main-header__right-side li:first-child {
+  border: none;
+}
+
+/* line 39, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_header.scss */
+.main-header__right-side li i {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* line 43, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_header.scss */
+.main-header__right-side li strong {
+  font-weight: 500;
+  font-size: 24px;
+  text-align: right;
+}
+
+/* line 48, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_header.scss */
+.main-header__right-side li a {
+  color: #003a5f;
+}
+
+/* line 53, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_header.scss */
+.main-header__country-dropdown {
+  text-align: right;
+  line-height: 1;
+}
+
+/* line 56, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_header.scss */
+.main-header__country-dropdown span {
+  position: relative;
+  padding-right: 30px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* line 63, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_header.scss */
+.main-header__country-dropdown span:after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 12px solid #003b5f;
+}
+
+/* navigation */
+/* line 78, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_header.scss */
+.navigation {
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  /*sub menu*/
+  /* for responsive */
+}
+
+/* line 82, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_header.scss */
+.navigation nav > ul > li:hover > a,
+.navigation nav > ul > li.active > a {
+  border-color: #003b60;
+}
+
+/* line 87, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_header.scss */
+.navigation ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* line 91, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_header.scss */
+.navigation li {
+  float: left;
+  text-transform: uppercase;
+  position: relative;
+  margin: 0;
+  font-size: 16px;
+  margin-left: 50px;
+}
+
+/* line 98, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_header.scss */
+.navigation li:first-child {
+  margin-left: 0;
+}
+
+/* line 102, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_header.scss */
+.navigation a {
+  color: #003a5e;
+  display: block;
+  padding: 35px 0;
+  border-bottom: 5px solid transparent;
+}
+
+/* line 110, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_header.scss */
+.navigation li ul {
+  margin: 0;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: white;
+  width: 170px;
+  z-index: -11;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  border: 1px solid #E0E0E0;
+  text-align: left;
+}
+
+/* line 128, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_header.scss */
+.navigation li ul li {
+  font-size: 12px !important;
+  margin: 0 !important;
+  display: block;
+  border: none;
+  height: auto;
+  float: none !important;
+  padding: 0 !important;
+  display: block !important;
+}
+
+/* line 138, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_header.scss */
+.navigation li ul li a {
+  color: #1A1A1A;
+  padding: 8px 15px;
+  display: block;
+}
+
+/* line 143, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_header.scss */
+.navigation li ul li:hover a {
+  background-color: #f7f7f7;
+}
+
+/* line 144, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_header.scss */
+.navigation ul li:hover ul {
+  visibility: visible;
+  opacity: 1;
+  z-index: 999;
+}
+
+/* line 151, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_header.scss */
+.navigation .navbar-header {
+  display: none !important;
+}
+
+/* line 154, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_header.scss */
+.navigation .collapse {
+  display: block !important;
+}
+
+/* line 3, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_footer.scss */
+.big-footer {
+  padding: 80px 0 75px;
+  background: url("../images/pattern1.jpg") left top repeat;
+  color: #ebf0f2;
+}
+
+/* line 7, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_footer.scss */
+.big-footer__widget {
+  font-size: 14px;
+  float: right;
+}
+
+/* line 10, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_footer.scss */
+.big-footer__widget figure {
+  margin-bottom: 20px;
+}
+
+/* line 13, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_footer.scss */
+.big-footer__widget ul, .big-footer__widget a {
+  color: #ebf0f2;
+}
+
+/* line 16, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_footer.scss */
+.big-footer__widget ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* line 20, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_footer.scss */
+.big-footer__widget li {
+  position: relative;
+  padding-left: 70px;
+  margin-bottom: 4px;
+}
+
+/* line 24, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_footer.scss */
+.big-footer__widget li span {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* line 31, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_footer.scss */
+.big-footer__widget a:hover, .big-footer__widget a:focus {
+  text-decoration: underline;
+}
+
+/* line 35, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_footer.scss */
+.big-footer__widget h4 {
+  font-family: Gotham, sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+  color: #6b96a8;
+  margin: 13px 0 20px;
+}
+
+/* line 44, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_footer.scss */
+.big-footer--location p {
+  color: #ebf0f2;
+}
+
+/* line 49, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_footer.scss */
+.big-footer [class*='col-']:first-child .big-footer__widget {
+  max-width: 542px;
+  float: left;
+}
+
+/* line 56, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_footer.scss */
+.legal-footer {
+  font-size: 12px;
+  color: #7f7f7f;
+  padding: 22px 0 18px;
+  background-color: #363636;
+}
+
+/* line 61, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_footer.scss */
+.legal-footer p {
+  margin-bottom: 0;
+}
+
+/* line 65, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_footer.scss */
+.legal-footer__widget a {
+  color: #7f7f7f;
+  margin-left: 30px;
+  transition: 0.1s all linear;
+}
+
+/* line 69, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_footer.scss */
+.legal-footer__widget a:first-child {
+  margin-left: 0;
+}
+
+/* line 72, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_footer.scss */
+.legal-footer__widget a:hover, .legal-footer__widget a:focus {
+  color: #ebf0f2;
+}
+
+/* line 77, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_footer.scss */
+.legal-footer--right {
+  text-align: right;
+}
+
+/* line 3, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_forms.scss */
+input,
+select,
+textarea {
+  font: 15px Gotham, sans-serif;
+  font-weight: 300;
+  outline: none;
+  color: #1a1a1a;
+  display: block;
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: solid 2px #d0d4d9;
+  height: auto;
+  line-height: normal;
+}
+
+/* line 19, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_forms.scss */
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #222323;
+}
+
+/* line 23, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_forms.scss */
+input.error,
+textarea.error {
+  border-color: #FE2B4A;
+}
+
+/*submit field*/
+/* line 29, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_forms.scss */
+input[type='submit'],
+.submit-btn {
+  display: block;
+  background-color: #2677C6;
+  font-size: 14px;
+  color: #fff;
+  border: 1px solid #1562AD;
+  text-transform: capitalize;
+  cursor: pointer;
+  padding: 12px 15px 12px;
+  font-weight: 700;
+  outline: none;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 0 1px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 1px;
+}
+
+/* line 44, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_forms.scss */
+input[type='submit']:hover {
+  background-color: #2677C6;
+}
+
+/* line 47, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_forms.scss */
+input[type='submit']:active {
+  background-color: #2677C6;
+  position: relative;
+  top: 1px;
+}
+
+/* line 52, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_forms.scss */
+textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+/* line 57, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_forms.scss */
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #7a7d7f;
+}
+
+/* line 61, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_forms.scss */
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+  color: #1a1a1a;
+}
+
+/* line 66, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_forms.scss */
+.form-control {
+  border-color: #d7d7d7;
+  height: 38px;
+  border-radius: 1px;
+  box-shadow: none;
+}
+
+/* line 71, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_forms.scss */
+.form-control:focus {
+  border-color: #86aac8;
+  box-shadow: none;
+}
+
+/* line 76, /home/aditia.priyadi/Projects/cumsar/assets/scss/partials/_forms.scss */
+.btn-submit {
+  line-height: 1;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+/* about */
+/* line 2, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.about-col {
+  padding-left: 30px;
+}
+
+/* line 4, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.about-col h1 {
+  font-size: 34px;
+  color: #003b60;
+}
+
+/* line 8, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.about-col h3 {
+  color: #6c94b4;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 35px;
+}
+
+/* line 18, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.about-section .news-list__item p {
+  margin-bottom: 10px;
+  color: #6a90a5;
+}
+
+/* line 23, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.about-section .news-list__item .text-right a {
+  color: #6a90a5;
+  font-size: 17px;
+  font-family: Cambria, Georgia, serif;
+  font-style: italic;
+}
+
+/* people-section */
+/* line 34, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.people-section {
+  margin-bottom: 50px;
+}
+
+/* line 36, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.people-section .author-block {
+  width: 140px;
+  height: 140px;
+  margin: 0 0 20px;
+}
+
+/* line 42, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.people-section .sidebar h1 {
+  font-size: 34px;
+  color: #003b60;
+  font-weight: 400;
+  margin: 0 0 5px;
+}
+
+/* line 48, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.people-section .sidebar h4 {
+  font-size: 20px;
+  color: #6c94b4;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+/* line 54, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.people-section .sidebar h5 {
+  font-size: 32px;
+  color: #003b60;
+  font-weight: 400;
+  font-family: Cambria, serif;
+  padding: 20px 0 20px;
+  margin: 0;
+}
+
+/* line 62, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.people-section .sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 67, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.people-section .sidebar li {
+  font-size: 18px;
+  color: #003b5e;
+  margin-bottom: 10px;
+}
+
+/* line 74, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.people-section .left-col {
+  padding-left: 30px;
+}
+
+/* line 77, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.people-section .left-col h2 {
+  color: #003b60;
+  font-size: 20px;
+  background: url("../../assets/images/icons/paperclip.svg") no-repeat 0 -2px;
+  padding-left: 35px;
+  min-height: 30px;
+  background-size: 30px;
+  text-transform: capitalize;
+}
+
+/* line 89, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.info-box {
+  margin-bottom: 20px;
+  color: #005999;
+}
+
+/* line 92, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.info-box i,
+.info-box span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 97, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.info-box i {
+  margin-right: 10px;
+}
+
+/* line 100, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.info-box a {
+  color: #005999;
+}
+
+/* line 105, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.publications--box {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  margin-bottom: 20px;
+}
+
+/* line 113, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.people-banner {
+  background-image: url("../../assets/images/people-banner-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 117, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.people-banner .container {
+  position: relative;
+}
+
+/* line 121, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.people-banner .pull-right {
+  width: 60%;
+}
+
+/* line 124, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.people-banner__info {
+  position: absolute;
+  left: 100px;
+  bottom: 20px;
+}
+
+/* line 129, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.people-banner h1 {
+  color: #fff;
+  font-size: 64px;
+  margin: 0 0 10px;
+}
+
+/* line 134, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.people-banner h4 {
+  font-size: 27px;
+  color: #7785a7;
+  font-family: Gotham, sans-serif;
+  font-weight: 300;
+}
+
+/* line 143, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.team-section h2 {
+  font-size: 34px;
+  color: #003b60;
+}
+
+/* line 147, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.team-section__row {
+  border-top: 1px solid #b7b7b7;
+  padding-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* line 152, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.team-section h3 {
+  color: #96b0cc;
+  font-size: 40px;
+  font-style: italic;
+}
+
+/* line 157, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.team-section h4 {
+  margin: 0;
+  font-size: 26px;
+  color: #003b60;
+  text-transform: capitalize;
+}
+
+/* line 163, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.team-section h5 {
+  font-size: 20px;
+  color: #6c94b4;
+  font-family: Cambria, serif;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+/* line 170, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.team-section__more-link {
+  background-color: #e5eaef;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-family: Cambria, serif;
+  font-size: 14px;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+/* line 180, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_pages.scss */
+.team-section .equalHeight {
+  margin-bottom: 40px;
+}
+
+/* hero banner */
+/* line 4, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.hero-banner {
+  background-image: url("../../assets/images/pattern-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* line 10, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.hero-banner:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background-image: url("../../assets/images/img-1.png");
+  background-position: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: '';
+  width: 700px;
+}
+
+/* line 22, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.hero-banner .container {
+  position: relative;
+  height: 100%;
+}
+
+/* line 28, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.hero-banner__left {
+  padding: 80px 0;
+}
+
+/* line 30, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.hero-banner__left h2 {
+  font-size: 40px;
+  color: #fff;
+  font-family: Cambria, serif;
+}
+
+/* line 35, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.hero-banner__left ul {
+  list-style: none;
+  margin: 0;
+  padding: 30px 0 0;
+  max-width: 430px;
+}
+
+/* line 41, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.hero-banner__left li {
+  padding-left: 80px;
+  margin-bottom: 20px;
+}
+
+/* line 45, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.hero-banner__left a {
+  position: relative;
+  color: #fff;
+  font-size: 24px;
+  border-bottom: 1px solid #264f67;
+  display: block;
+  padding: 0 60px 20px 0;
+}
+
+/* line 52, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.hero-banner__left a:after {
+  background-image: url("../../assets/images/right-arrow.png");
+  background-repeat: no-repeat;
+  width: 14px;
+  height: 26px;
+  display: block;
+  content: '';
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+
+/* line 64, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.hero-banner__left img {
+  position: absolute;
+  left: -70px;
+  top: -4px;
+  width: 44px;
+  height: auto;
+}
+
+/* line 73, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.content {
+  padding: 60px 0 0;
+}
+
+/* services */
+/* line 78, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.services {
+  padding-bottom: 40px;
+}
+
+/* line 81, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.services figure {
+  margin-bottom: 20px;
+}
+
+/* line 83, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.services figure img {
+  height: 40px;
+  width: auto;
+}
+
+/* line 88, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.services h2 {
+  font-size: 20px;
+  color: #164f92;
+  font-family: Gotham, sans-serif;
+  font-weight: 300;
+}
+
+/* line 94, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.services p {
+  font-size: 14px;
+  color: #333;
+}
+
+/* line 99, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.services .equalHeight {
+  margin-bottom: 40px;
+}
+
+/* announce */
+/* line 105, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.announce {
+  background-image: url("../../assets/images/pattern-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 288px;
+}
+
+/* line 112, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.announce:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 300px;
+  background-image: url("../../assets/images/img-2.png");
+  background-position: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: '';
+  width: 540px;
+}
+
+/* line 125, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.announce__col {
+  float: right;
+  width: 45%;
+  color: #fff;
+  padding: 40px 0;
+}
+
+/* line 130, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.announce__col h2 {
+  font-size: 26px;
+  font-family: Cambria, serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* line 136, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.announce__col .date {
+  font-size: 13px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* line 141, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.announce__col p {
+  font-size: 14px;
+}
+
+/* line 144, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.announce__col .button {
+  border-color: #3291a9;
+}
+
+/* article-section */
+/* line 150, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section {
+  padding: 140px 0 25px;
+  background-color: #f7f7f7;
+}
+
+/* line 153, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__popular {
+  background-color: #ffffff;
+  border-radius: 4px;
+  margin-right: 8px;
+  box-shadow: 0px 0px 5px 0px rgba(148, 148, 148, 0.3);
+}
+
+/* line 158, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__popular header, .article-section__popular .link, .article-section__popular footer {
+  padding: 17px 22px;
+}
+
+/* line 161, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__popular header, .article-section__popular .link {
+  border-bottom: solid 1px rgba(148, 148, 148, 0.5);
+}
+
+/* line 164, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__popular header {
+  /*color: #003b5e;*/
+  color: white;
+  font-family: Cambria, Georgia, serif;
+  /*background: url('../../assets/images/patterns/pattern1.jpg') top left repeat-y;*/
+  background: #0f4668;
+  border-radius: 4px 4px 0 0;
+}
+
+/* line 171, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__popular header h3 {
+  margin-bottom: 0;
+  /*background: url('../../assets/images/icons/star.svg') top left no-repeat;*/
+  /*padding-left: 34px;*/
+  min-height: 34px;
+  padding-top: 2px;
+  background-size: 30px 30px;
+}
+
+/* line 181, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__popular .link h4 {
+  font-size: 16px;
+  font-family: Gotham, sans-serif;
+  font-weight: 300;
+  margin-bottom: 7px;
+}
+
+/* line 186, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__popular .link h4:last-child {
+  margin-bottom: 0;
+}
+
+/* line 190, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__popular .link a {
+  color: #1d6693;
+  transition: 0.1s all linear;
+}
+
+/* line 193, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__popular .link a:hover, .article-section__popular .link a:focus {
+  color: #555;
+}
+
+/* line 197, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__popular .link p {
+  font-size: 11px;
+  margin-bottom: 0;
+}
+
+/* line 203, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__popular ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 208, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__popular li {
+  border-bottom: 1px solid #d1d1d1;
+  font-size: 14px;
+}
+
+/* line 211, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__popular li a {
+  display: block;
+  padding: 20px;
+  color: #2c6c93;
+  position: relative;
+}
+
+/* line 217, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__popular li a:before {
+  content: '';
+  display: block;
+  background-color: #a6bbc8;
+  height: 0;
+  width: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+/* line 229, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__popular li:hover a:before,
+.article-section__popular li.active a:before {
+  height: 100%;
+}
+
+/* line 234, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__popular footer {
+  text-align: right;
+  background-color: #ebf0f2;
+  border-radius: 0 0 4px 4px;
+}
+
+/* line 238, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__popular footer p {
+  font-size: 17px;
+  font-family: Cambria, Georgia, serif;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+/* line 244, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__popular footer a {
+  color: #1d5e84;
+  transition: 0.1s all linear;
+}
+
+/* line 247, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__popular footer a:hover, .article-section__popular footer a:focus {
+  color: #143a50;
+}
+
+/* line 253, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__list {
+  padding-left: 40px;
+  padding-right: 8px;
+}
+
+/* line 257, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__article {
+  margin-bottom: 65px;
+}
+
+/* line 259, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__article header {
+  position: relative;
+  padding-right: 100px;
+  margin-bottom: 20px;
+}
+
+/* line 263, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__article header h2 {
+  font-size: 39px;
+  font-family: Cambria, Georgia, serif;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+/* line 269, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__article header a {
+  color: #6a90a5;
+  transition: 0.1s all linear;
+}
+
+/* line 272, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__article header a:hover, .article-section__article header a:focus {
+  color: #387799;
+}
+
+/* line 276, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__article header h3 {
+  padding-bottom: 0;
+  font-weight: 300;
+  font-family: Cambria, Georgia, serif;
+  color: #003b5f;
+}
+
+/* line 282, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__article header .author-block {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70px;
+  height: 70px;
+}
+
+/* line 288, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__article header .author-block__photo {
+  margin-bottom: 2px;
+}
+
+/* line 291, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__article header .author-block__name {
+  font-size: 12px;
+  position: absolute;
+  top: 75px;
+  left: 0;
+}
+
+/* line 299, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__article header .pull-left img {
+  display: block;
+}
+
+/* line 302, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__article header .pull-left .author-name {
+  font-size: 20px;
+  color: #003b5f;
+  display: block;
+}
+
+/* line 309, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__article figure {
+  font-size: 12px;
+  display: inline-block;
+  text-align: center;
+}
+
+/* line 313, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__article figure img {
+  margin-bottom: 4px;
+}
+
+/* line 317, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__article .pull-left {
+  width: 80%;
+}
+
+/* line 320, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__article .pull-right {
+  width: 20%;
+  text-align: right;
+}
+
+/* line 324, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__article .content-wrap {
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+/* line 327, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__article .content-wrap p {
+  margin-bottom: 22px;
+}
+
+/* line 329, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_homepage.scss */
+.article-section__article .content-wrap p:last-child {
+  margin-bottom: 0;
+}
+
+/* line 3, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.page-title {
+  color: #003b60;
+  padding: 17px 0 58px;
+}
+
+/* line 6, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.page-title h2 {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+/* line 11, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.relative {
+  position: relative;
+}
+
+/* line 15, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.filter-block--content-wrap {
+  padding: 16px 30px 30px 26px;
+  background-color: #ffffff;
+  border: solid 1px #f1f1f1;
+  border-radius: 4px;
+  position: relative;
+}
+
+/* line 21, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.filter-block--content-wrap:after {
+  content: '';
+  /*background-image: url(../../assets/images/filter-icon.png);*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* line 34, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.filter-block .row {
+  margin: 0 -20px;
+}
+
+/* line 37, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.filter-block [class*='col-'] {
+  padding: 0 20px;
+}
+
+/* line 40, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.filter-block h5 {
+  font-size: 18px;
+  color: #003b60;
+  font-family: Cambria, serif;
+  margin: 0 0 13px;
+}
+
+/* line 47, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.filter-block__search .form-control {
+  padding-right: 45px;
+}
+
+/* line 50, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.filter-block__search button {
+  position: absolute;
+  top: 8px;
+  right: 18px;
+}
+
+/* line 66, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.tag-list__item {
+  font-size: 15px;
+  line-height: 1;
+  display: inline-block;
+  color: #ffffff;
+  padding: 5px 11px 5px 13px;
+  background-color: #b9bbbd;
+  border-radius: 4px;
+  margin: 0 5px 5px 0;
+}
+
+/* line 75, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.tag-list__item:hover, .tag-list__item:focus {
+  color: #ffffff;
+  opacity: .9;
+}
+
+/* line 79, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.tag-list__item--orange {
+  background-color: #e3947a;
+}
+
+/* line 82, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.tag-list__item--lightgreen {
+  background-color: #c9b75f;
+}
+
+/* line 85, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.tag-list__item--purple {
+  background-color: #ac6390;
+}
+
+/* line 88, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.tag-list__item--lightblue {
+  background-color: #6a90a5;
+}
+
+/* line 91, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.tag-list__item--darkgreen {
+  background-color: #909c7a;
+}
+
+/* line 94, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.tag-list__item--darkblue {
+  background-color: #0f4769;
+}
+
+/* line 97, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.tag-list__item--gray {
+  background-color: #b9bbbd;
+}
+
+/* line 102, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.tag-list--small .tag-list__item {
+  font-size: 12px;
+  padding: 4px 10px;
+}
+
+/* line 111, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.news-list {
+  padding: 40px 0;
+}
+
+/* line 113, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.news-list .container {
+  padding: 0 14px;
+}
+
+/* line 116, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.news-list .row {
+  margin: 0 -14px;
+}
+
+/* line 119, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.news-list [class*='col-'] {
+  padding: 0 14px;
+}
+
+/* line 122, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.news-list__item {
+  background-color: #fff;
+  border-radius: 4px;
+  margin-bottom: 45px;
+  box-shadow: 0px 0px 10px 0px rgba(173, 173, 173, 0.5);
+}
+
+/* line 127, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.news-list__item figure {
+  overflow: hidden;
+}
+
+/* line 129, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.news-list__item figure img {
+  border-radius: 4px 4px 0 0;
+  transition: 0.5s all linear;
+}
+
+/* line 134, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.news-list__item__text {
+  padding: 18px 26px;
+  border-radius: 0 0 4px 4px;
+}
+
+/* line 137, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.news-list__item__text h1 {
+  font-size: 20px;
+  line-height: 1.4;
+  font-family: Cambria, serif;
+  margin-bottom: 4px;
+}
+
+/* line 142, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.news-list__item__text h1 a {
+  color: #1e4e6a;
+  display: inline-block;
+  transition: 0.1s all linear;
+}
+
+/* line 146, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.news-list__item__text h1 a:hover, .news-list__item__text h1 a:focus {
+  color: #86aac8;
+}
+
+/* line 151, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.news-list__item__text h6 {
+  font-size: 11px;
+  margin: 0 0 14px;
+}
+
+/* line 155, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.news-list__item__text p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+
+/* line 161, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.news-list__item--date, .news-list__item--category {
+  text-transform: uppercase;
+}
+
+/* line 164, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.news-list__item--date {
+  color: #86aac8;
+}
+
+/* line 167, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.news-list__item--author, .news-list__item--author a {
+  color: #155f7d;
+}
+
+/* line 171, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.news-list__item--author a:hover {
+  text-decoration: underline;
+}
+
+/* line 176, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.news-list__item--category:before {
+  content: '|';
+  margin: 0 2px 0 1px;
+}
+
+/* line 184, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.news-list__item:hover figure img {
+  transition: 2s all linear;
+  transform: scale(1.1, 1.1);
+}
+
+/* line 192, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.news-list .button {
+  margin: 20px auto 0;
+  display: block;
+  width: 200px;
+}
+
+/* line 200, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.article-banner {
+  margin-bottom: 50px;
+}
+
+/* line 203, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.article-details-section {
+  margin-bottom: 50px;
+}
+
+/* line 207, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.author-block {
+  width: 145px;
+  margin: 0 auto;
+}
+
+/* line 210, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.author-block__name {
+  font-size: 20px;
+  color: #003b5f;
+  font-family: Cambria, serif;
+  display: block;
+  text-align: center;
+}
+
+/* line 217, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.author-block__photo {
+  background-color: #c6d1d8;
+  padding: 3px;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+
+/* line 226, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.author-block__photo img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* line 236, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.article-post h1 {
+  font-family: Cambria, serif;
+  color: #1e4e6a;
+  font-size: 38px;
+  font-weight: 400;
+}
+
+/* line 242, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.article-post .filter-block__type {
+  margin-bottom: 30px;
+}
+
+/* line 245, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.article-post p {
+  padding-bottom: 30px;
+  line-height: 30px;
+}
+
+/* line 249, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.article-post__more {
+  font-size: 20px;
+  font-family: Cambria, serif;
+  margin-bottom: 20px;
+}
+
+/* line 253, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.article-post__more img,
+.article-post__more span {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* line 262, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.recent-article {
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 0px rgba(148, 148, 148, 0.3);
+  border-radius: 2px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 267, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.recent-article h3 {
+  font-size: 28px;
+  color: #6a90a5;
+}
+
+/* line 271, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.recent-article ul {
+  list-style: none;
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+
+/* line 276, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.recent-article li {
+  margin-bottom: 15px;
+}
+
+/* line 279, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.recent-article a {
+  color: #3c627c;
+  border-bottom: 2px solid #afbbc4;
+  margin-left: 40px;
+  position: relative;
+}
+
+/* line 284, /home/aditia.priyadi/Projects/cumsar/assets/scss/pages/_news.scss */
+.recent-article a:after {
+  content: '';
+  background-image: url("../../assets/images/icons/docs.svg");
+  background-repeat: no-repeat;
+  width: 23px;
+  height: 22px;
+  display: block;
+  position: absolute;
+  top: -2px;
+  left: -40px;
+}
+
+/*# sourceMappingURL=../css/main.map */

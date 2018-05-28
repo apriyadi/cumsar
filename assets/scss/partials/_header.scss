@@ -1,7 +1,7 @@
 /* main header */
 .main-header{
   background-color: #fff;
-  min-width: 1170px;
+  min-width: 1024px;
   +.navigation{
     border-top: solid 4px #2b5977;
   }
@@ -44,7 +44,6 @@
       font-weight: $medium;
       font-size: 24px;
       text-align: right;
-      padding-right: 25px;
     }
     a{
       color: #003a5f;
@@ -95,7 +94,7 @@
     position: relative;
     margin: 0;
     font-size: 16px;
-    margin-left: 100px;
+    margin-left: 50px;
     &:first-child{
       margin-left: 0;
     }
